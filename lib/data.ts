@@ -163,3 +163,72 @@ export const contacts = [
     status: "Lead",
   },
 ];
+
+export type Deal = {
+  id: number;
+  name: string;
+  contact: string;
+  value: string;
+  stage: string;
+};
+
+export const deals: Deal[] = [
+  {
+    id: 1,
+    name: "Website Redesign",
+    contact: "Sarah Johnson",
+    value: "$12,000",
+    stage: "Lead",
+  },
+  {
+    id: 2,
+    name: "Mobile App Dev",
+    contact: "James Wilson",
+    value: "$25,000",
+    stage: "Lead",
+  },
+  {
+    id: 3,
+    name: "SEO Campaign",
+    contact: "Maria Garcia",
+    value: "$5,000",
+    stage: "Contacted",
+  },
+  {
+    id: 4,
+    name: "CRM Integration",
+    contact: "John Smith",
+    value: "$8,000",
+    stage: "Contacted",
+  },
+  {
+    id: 5,
+    name: "Cloud Migration",
+    contact: "Emily Davis",
+    value: "$18,000",
+    stage: "Interested",
+  },
+  {
+    id: 6,
+    name: "UI/UX Audit",
+    contact: "Robert Brown",
+    value: "$6,500",
+    stage: "Proposal",
+  },
+  {
+    id: 7,
+    name: "Data Analytics",
+    contact: "Lisa Anderson",
+    value: "$14,000",
+    stage: "Proposal",
+  },
+  {
+    id: 8,
+    name: "E-commerce Setup",
+    contact: "David Martinez",
+    value: "$9,000",
+    stage: "Won",
+  },
+];
+
+export const stages = ["Lead", "Contacted", "Interested", "Proposal", "Won"];
