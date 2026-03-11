@@ -3,7 +3,7 @@ export const stats = [
   { label: "Active Deals", value: "42", change: "+8% this month" },
   { label: "Revenue Won", value: "$94,200", change: "+23% this month" },
   { label: "Tasks Due", value: "17", change: "5 overdue" },
-]
+];
 
 export const chartData = [
   { month: "Jan", deals: 12 },
@@ -18,20 +18,148 @@ export const chartData = [
   { month: "Oct", deals: 38 },
   { month: "Nov", deals: 45 },
   { month: "Dec", deals: 50 },
-]
+];
 
 export const recentActivity = [
-  { id: 1, action: "New contact added", name: "Sarah Johnson", time: "2 mins ago" },
-  { id: 2, action: "Deal won", name: "Tech Corp — $12,000", time: "1 hour ago" },
+  {
+    id: 1,
+    action: "New contact added",
+    name: "Sarah Johnson",
+    time: "2 mins ago",
+  },
+  {
+    id: 2,
+    action: "Deal won",
+    name: "Tech Corp — $12,000",
+    time: "1 hour ago",
+  },
   { id: 3, action: "Note added", name: "James Wilson", time: "3 hours ago" },
-  { id: 4, action: "Deal lost", name: "StartupXYZ — $5,000", time: "5 hours ago" },
+  {
+    id: 4,
+    action: "Deal lost",
+    name: "StartupXYZ — $5,000",
+    time: "5 hours ago",
+  },
   { id: 5, action: "Contact updated", name: "Maria Garcia", time: "1 day ago" },
-]
+];
 
 export const recentContacts = [
-  { id: 1, name: "Sarah Johnson", email: "sarah@example.com", company: "Apple Inc", status: "Active" },
-  { id: 2, name: "James Wilson", email: "james@example.com", company: "Google LLC", status: "Lead" },
-  { id: 3, name: "Maria Garcia", email: "maria@example.com", company: "Microsoft", status: "Active" },
-  { id: 4, name: "John Smith", email: "john@example.com", company: "Amazon", status: "Inactive" },
-  { id: 5, name: "Emily Davis", email: "emily@example.com", company: "Meta", status: "Lead" },
-]
+  {
+    id: 1,
+    name: "Sarah Johnson",
+    email: "sarah@example.com",
+    company: "Apple Inc",
+    status: "Active",
+  },
+  {
+    id: 2,
+    name: "James Wilson",
+    email: "james@example.com",
+    company: "Google LLC",
+    status: "Lead",
+  },
+  {
+    id: 3,
+    name: "Maria Garcia",
+    email: "maria@example.com",
+    company: "Microsoft",
+    status: "Active",
+  },
+  {
+    id: 4,
+    name: "John Smith",
+    email: "john@example.com",
+    company: "Amazon",
+    status: "Inactive",
+  },
+  {
+    id: 5,
+    name: "Emily Davis",
+    email: "emily@example.com",
+    company: "Meta",
+    status: "Lead",
+  },
+];
+
+export const contacts = [
+  {
+    id: 1,
+    name: "Sarah Johnson",
+    email: "sarah@example.com",
+    phone: "+1 234 567 890",
+    company: "Apple Inc",
+    status: "Active",
+  },
+  {
+    id: 2,
+    name: "James Wilson",
+    email: "james@example.com",
+    phone: "+1 234 567 891",
+    company: "Google LLC",
+    status: "Lead",
+  },
+  {
+    id: 3,
+    name: "Maria Garcia",
+    email: "maria@example.com",
+    phone: "+1 234 567 892",
+    company: "Microsoft",
+    status: "Active",
+  },
+  {
+    id: 4,
+    name: "John Smith",
+    email: "john@example.com",
+    phone: "+1 234 567 893",
+    company: "Amazon",
+    status: "Inactive",
+  },
+  {
+    id: 5,
+    name: "Emily Davis",
+    email: "emily@example.com",
+    phone: "+1 234 567 894",
+    company: "Meta",
+    status: "Lead",
+  },
+  {
+    id: 6,
+    name: "Robert Brown",
+    email: "robert@example.com",
+    phone: "+1 234 567 895",
+    company: "Netflix",
+    status: "Active",
+  },
+  {
+    id: 7,
+    name: "Lisa Anderson",
+    email: "lisa@example.com",
+    phone: "+1 234 567 896",
+    company: "Tesla",
+    status: "Lead",
+  },
+  {
+    id: 8,
+    name: "David Martinez",
+    email: "david@example.com",
+    phone: "+1 234 567 897",
+    company: "Spotify",
+    status: "Inactive",
+  },
+  {
+    id: 9,
+    name: "Jennifer Taylor",
+    email: "jennifer@example.com",
+    phone: "+1 234 567 898",
+    company: "Airbnb",
+    status: "Active",
+  },
+  {
+    id: 10,
+    name: "Michael Lee",
+    email: "michael@example.com",
+    phone: "+1 234 567 899",
+    company: "Uber",
+    status: "Lead",
+  },
+];
