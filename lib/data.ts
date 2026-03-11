@@ -232,3 +232,85 @@ export const deals: Deal[] = [
 ];
 
 export const stages = ["Lead", "Contacted", "Interested", "Proposal", "Won"];
+
+export type Note = {
+  id: number;
+  contactId: number;
+  contactName: string;
+  type: "Call" | "Email" | "Meeting" | "Task" | "Other";
+  content: string;
+  date: string;
+  time: string;
+};
+
+export const notes: Note[] = [
+  {
+    id: 1,
+    contactId: 1,
+    contactName: "Sarah Johnson",
+    type: "Call",
+    content:
+      "Discussed project requirements. Client is interested in a full redesign. Follow up next week.",
+    date: "Today",
+    time: "2:30 PM",
+  },
+  {
+    id: 2,
+    contactId: 2,
+    contactName: "James Wilson",
+    type: "Email",
+    content: "Sent initial proposal document. Waiting for feedback on pricing.",
+    date: "Today",
+    time: "11:00 AM",
+  },
+  {
+    id: 3,
+    contactId: 3,
+    contactName: "Maria Garcia",
+    type: "Meeting",
+    content:
+      "Zoom call to demo the product. Very positive reaction. They want to involve their tech team next.",
+    date: "Yesterday",
+    time: "3:00 PM",
+  },
+  {
+    id: 4,
+    contactId: 4,
+    contactName: "John Smith",
+    type: "Task",
+    content: "Prepare custom pricing sheet for Amazon integration project.",
+    date: "Yesterday",
+    time: "10:00 AM",
+  },
+  {
+    id: 5,
+    contactId: 5,
+    contactName: "Emily Davis",
+    type: "Call",
+    content:
+      "Quick check in call. Emily confirmed budget is approved. Moving to proposal stage.",
+    date: "2 days ago",
+    time: "4:15 PM",
+  },
+  {
+    id: 6,
+    contactId: 6,
+    contactName: "Robert Brown",
+    type: "Email",
+    content: "Followed up on the UI audit proposal. No response yet.",
+    date: "3 days ago",
+    time: "9:00 AM",
+  },
+  {
+    id: 7,
+    contactId: 7,
+    contactName: "Lisa Anderson",
+    type: "Meeting",
+    content:
+      "In person meeting at their office. Discussed timeline and deliverables for cloud migration.",
+    date: "4 days ago",
+    time: "2:00 PM",
+  },
+];
+
+export const noteTypes = ["Call", "Email", "Meeting", "Task", "Other"];
