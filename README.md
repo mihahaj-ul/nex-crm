@@ -4,14 +4,16 @@
 
 ---
 
-## Technologys
+## Technologies Used
 
-| Next js |
-| TypeScript |
-| Shad cn |
-| Recharts |
-| DnD Kit |
-| Lucide-react |
+| Technology       | Purpose                                                  |
+| :--------------- | :------------------------------------------------------- |
+| **Next.js**      | React framework for SSR and optimized routing.           |
+| **TypeScript**   | Type safety and improved code maintainability.           |
+| **Shadcn UI**    | Accessible and customizable UI components.               |
+| **Recharts**     | Lightweight library for interactive data visualizations. |
+| **DnD Kit**      | Toolkit for building complex drag-and-drop interfaces.   |
+| **Lucide-react** | Clean and consistent SVG icons for UI/UX.                |
 
 ---
 
